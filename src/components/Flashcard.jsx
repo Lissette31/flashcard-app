@@ -7,7 +7,7 @@ export default function Flashcard({ card }) {
     <div className="flashcard-container">
       <div
         className={`flashcard ${flipped ? "flipped" : ""}`}
-        onClick={() => setFlipped(!flipped)} /* Flip only when clicking the card */
+        onClick={() => setFlipped(!flipped)}
       >
         {/* Front Side (Question) */}
         <div className="flashcard-face front">
